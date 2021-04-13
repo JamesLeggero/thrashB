@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "If";
+    src: url(If.ttf);
+}
+
+/* * {
+    font-family: 'If', Fallback, sans-serif;
+} */
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+header {
+    background-color: black;
+    height: 75px;
+    border: solid black
+    /* padding: 5px */
+}
+
+
+
+/* h1 {
+    float: left;
+    color: white;
+    margin-left: 20px;
+} */
+
+nav {
+    text-align: center;
+    width: 1250px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+   
+}
+
+li {
+    font-family: 'If', Fallback, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    /* is this doing anything? */
+    display: inline;
+    color: white;
+    line-height: 75px;
+    padding: 0 40px  
+}
+
+/* .image-container {
+    
+    
+} */
+
+img {
+    width: 1366px;
+    margin: -2px 0
+}
+
+.td-logo {
+    width: 350px;
+    float: left;
+    margin-left: 20px
+}
+
+h2 {
+    text-align: center;
+    font-family: 'If', Fallback, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 34px;
+    font-weight: lighter;
+    color: white;
+}
+
+.giant-hero-container {
+    background-size: 1366px;
+    width: 1366px;
+    height: 100%;
+    margin: -75px 0;
+    background-image: 
+        url(img/Redman.jpg),
+        url(img/trash.jpg),
+        url(img/RedBGround.svg);
+    background-position: 
+        top,
+        bottom;
+    background-repeat: no-repeat;
+    
+}
+
+.section-container {
+    width: 650px;
+    height: 100%;
+    /* margin: 400px; */
+    padding: 50px 100px;
+    background-color: rgba(238, 130, 238, 0.5);
+    /* margin: 0 auto; */
+    margin: 70px 200px
+
+}
+
+.photos-container {
+    padding: 50px;
+    width: 40%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100% 100%;
+}
+.thrashArt {
+    width: 100%
+}
+
+video {
+    width: 100%
+}
+
+/* .links-container {
+    
+    background-color: cadetblue;
+   
+} */
+
+a {
+    text-decoration: none;
+}
+
+.thrash-link {
+    text-align: left;
+   
+}
+
+.contact-email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: #FDBCBC
+}
+
+
+footer {
+    background-color: rgb(1, 51, 51);
+    height: 75px;
+    width: 1366px;
+    margin-top: -2px;
+    display: grid;
+    grid-template-columns: 450px 666px 450px
+    
+}
+
+
+
+#footer-ul {
+    padding: 0 
+}
+
+h3 {
+    /* display: inline; */
+    /* line-height: 75px; */
+    color: white;
+    font-size: 20px;
+    /* border: 2px solid gold */
+    margin-top: 25px;
+    text-align: center;
+}
+
+#left-foot {
+    
+    margin-left: 20px;
+    
+}
+
+#center-foot {
+    margin-right: 20px;
+}
+
+#right-foot {
+    
+    /* s */
+}
