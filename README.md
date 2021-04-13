@@ -1,2 +1,2 @@
 <h1>THRASH DEPOSIT IS COMING SOON
-<img src='img/thrashAlbumArt/01 cover.jpeg' alt='THRASH COVER'>
+<img src='img/Thrash-heroImage.png' alt='THRASH COVER'>
