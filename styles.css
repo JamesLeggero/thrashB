@@ -3,6 +3,11 @@
     src: url(If.ttf);
 }
 
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(HelveticaNeueRegular.ttf);
+}
+
 /* * {
     font-family: 'If', Fallback, sans-serif;
 } */
@@ -10,6 +15,15 @@
 html, body {
     padding:0;
     margin:0;
+}
+
+h2, h3, h4, p {
+    font-family: 'Helvetica Neue', Fallback, sans-serif;
+    color: white
+}
+
+p {
+    font-size: 16px;
 }
 
 header {
@@ -96,7 +110,8 @@ h2 {
     height: 100%;
     /* margin: 400px; */
     padding: 50px 100px;
-    background-color: rgba(238, 130, 238, 0.5);
+    /* background-color: rgba(238, 130, 238, 0.5); */
+    background-color: #00000061;
     /* margin: 0 auto; */
     margin: 70px 200px
 
