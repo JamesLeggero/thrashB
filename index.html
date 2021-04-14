@@ -22,18 +22,18 @@
             <img class='td-logo' src='img/Thrash-Deposit-Logo-white.png' alt='TD Logo'>
             <nav>
                 <ul>
-                    <li>Manifesto</li>
-                    <li>News</li>
-                    <li>Music</li>
-                    <li>Media</li>
-                    <li>Links</li>
+                    <li class='nav-li' id='scroll-manifesto'>Manifesto</li>
+                    <li class='nav-li' id='scroll-news'>News</li>
+                    <li class='nav-li' onclick="scroll('music')">Music</li>
+                    <li class='nav-li' onclick="scroll('.media')">Media</li>
+                    <li class='nav-li' onclick="scroll('.links')">Links</li>
                 </ul>
             </nav>
     </div>
     </header>
     
     <div class='giant-hero-container'>
-        <div class='manifesto'>
+        <div class='manifesto' id='manifesto'>
             <div class='section-container'>
                 <h2>Manifesto</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem ac pharetra molestie. Maecenas eu porta metus. Nullam ullamcorper dignissim leo, vel mollis augue venenatis quis. Mauris condimentum ex odio, sit amet fringilla risus congue feugiat. Donec imperdiet posuere convallis. Mauris purus sapien, luctus et faucibus eu, mattis ac dolor. Nulla vestibulum blandit dui, eget suscipit erat luctus id. Praesent et erat vel ipsum tristique mollis et eu nibh. Vestibulum mi lacus, egestas ac lectus non, auctor eleifend lorem. Ut quis dolor erat. Aliquam condimentum eget lorem vitae posuere. Nulla bibendum, mauris ut condimentum volutpat, erat tortor vulputate nisl, et condimentum elit ante id magna. Morbi mollis sagittis urna convallis scelerisque.</p>
@@ -44,7 +44,7 @@
         <div class='news'>
             <div class='section-container'>
                 <h2>News</h2>
-                <div class='news-container'>
+                <div class='news-container' id='news'>
                     <article>
                         <h3>Thrash Deposit Releases Debut Album</h3>
                         <p><strong>2021.04.20: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem ac pharetra molestie. Maecenas eu porta metus. Nullam ullamcorper dignissim leo, vel mollis augue venenatis quis. Mauris condimentum ex odio, sit amet fringilla risus congue feugiat. Donec imperdiet posuere convallis. Mauris purus sapien, luctus et faucibus eu, mattis ac dolor. </p>
@@ -57,9 +57,27 @@
         <div class='music'>
             <div class='section-container'>
                 <h2>Music</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor sem ac pharetra molestie. Maecenas eu porta metus. Nullam ullamcorper dignissim leo, vel mollis augue venenatis quis. Mauris condimentum ex odio, sit amet fringilla risus congue feugiat. Donec imperdiet posuere convallis. Mauris purus sapien, luctus et faucibus eu, mattis ac dolor. Nulla vestibulum blandit dui, eget suscipit erat luctus id. Praesent et erat vel ipsum tristique mollis et eu nibh. Vestibulum mi lacus, egestas ac lectus non, auctor eleifend lorem. Ut quis dolor erat. Aliquam condimentum eget lorem vitae posuere. Nulla bibendum, mauris ut condimentum volutpat, erat tortor vulputate nisl, et condimentum elit ante id magna. Morbi mollis sagittis urna convallis scelerisque.</p>
-                <p>Cras mollis tellus non erat dapibus efficitur ut vitae mauris. Nullam velit urna, ultrices eget finibus quis, pharetra sit amet dui. Quisque gravida tellus id nunc blandit blandit. Duis in erat augue. Pellentesque vel dolor eget neque fringilla luctus. Nulla at elementum lacus. Duis at sollicitudin augue. Nulla sem mauris, pulvinar vitae porttitor a, vulputate non massa. In at luctus urna, id mollis risus. Cras a eleifend augue.</p>
-                <p>Nam arcu erat, condimentum sit amet dapibus consequat, pulvinar vel mauris. Aliquam rutrum luctus enim, at feugiat arcu dapibus eu. Quisque augue nisl, congue eget placerat vitae, porta a lacus. Pellentesque quis ligula magna. Cras tellus quam, tempor a ullamcorper vel, venenatis vel justo. Suspendisse dignissim eu ligula nec ultrices. Phasellus ipsum ipsum, lacinia vitae pellentesque a, lacinia eget diam. Aliquam commodo eget ante in pulvinar. Vivamus vitae dui eu lectus maximus molestie vitae vitae leo. Donec ultrices eu dolor pretium malesuada. Duis ac lacus urna. Aenean sed massa dictum nibh blandit fermentum a in erat. Etiam nec semper lacus, a finibus mi. Nullam lacinia enim elit, vel hendrerit massa tincidunt non. Etiam pharetra, neque nec vestibulum dapibus, tortor diam accumsan ex, quis vulputate urna ipsum vel velit.</p>
+                <h2 class='album-name'>ATM (2021)</h2>
+                <img class='album-cover' src='img/Thrash-heroImage.png' alt="Thrash Album Cover" />
+                <div class='tracklist-container'>
+                    <h3 class='tracklist'>Tracklist:</h3>
+                    <ol class='album-li'>
+                        <li>Tellers</li>
+                        <li>Warm Up</li>
+                        <li>I Just Want To Smoke My Weed</li>
+                        <li>Burrito Was No Good</li>
+                        <li>Don't Bother</li>
+                        <li>Huff Balloons</li>
+                        <li>Let's Go To A Party</li>
+                        <li>Kitten Store</li>
+                        <li>Vodka</li>
+                        <li>Sandwich</li>
+                        <li>Dollars and Cents</li>
+                        <li>Mel Gibson</li>
+                        <li>Crypt</li>
+                        <li>Wasteland Giant</li>
+                    </ol>
+                </div>  
                 
             </div>
         </div>
