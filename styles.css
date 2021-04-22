@@ -69,7 +69,8 @@ ul {
     display: inline;
     color: white;
     line-height: 75px;
-    padding: 0 40px  
+    padding: 0 40px;
+    cursor: default;
 }
 
 /* .image-container {
@@ -202,7 +203,7 @@ a {
 footer {
     background-color:black;
     height: 75px;
-    width: 1366px;
+    width: 100%;
     margin-top: -2px;
     display: grid;
     grid-template-columns: 450px 666px 450px
