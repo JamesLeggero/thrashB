@@ -1,16 +1,3 @@
-// $(()=>{
-//     console.log('jQ up')
-
-//     const scrollTo = (section) => {
-        
-//     }
-
-//     $('.scroll-manifesto').on('click', ()=>{
-//         scrollTo('.music' )
-//     })
-
-
-// })
 
 const goToSection = (event, section) => {
     event.preventDefault()
@@ -18,6 +5,12 @@ const goToSection = (event, section) => {
     const area = document.getElementById(section)
     area.scrollIntoView({behavior: 'smooth'})
 }
+
+document.getElementById('scroll-thrash').addEventListener('click', event => {
+    event.preventDefault()
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
 
 document.getElementById('scroll-manifesto').addEventListener('click', event => {
     goToSection(event, 'manifesto')

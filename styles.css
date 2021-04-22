@@ -34,7 +34,10 @@ p {
 header {
     background-color: black;
     height: 75px;
-    border: solid black
+    width: 100%;
+    border: solid black;
+    position: fixed;
+    margin: -75px 0 75px 0
     /* padding: 5px */
 }
 
@@ -74,8 +77,9 @@ ul {
     
 } */
 
+
 img {
-    width: 1366px;
+    max-width: 1366px;
     margin: -2px 0
 }
 
@@ -95,10 +99,9 @@ h2 {
 }
 
 .giant-hero-container {
-    background-size: 1366px;
-    width: 1366px;
+    background-size: 100%;
     height: 100%;
-    margin: -75px 0;
+    margin: 75px 0 -75px 0;
     background-image: 
         url(img/Redman.jpg),
         url(img/trash.jpg),
@@ -155,6 +158,8 @@ h2 {
     list-style-position:outside;
 }
 
+
+
 .photos-container {
     padding: 50px;
     width: 40%;
@@ -166,8 +171,9 @@ h2 {
     width: 100%
 }
 
-video {
-    width: 100%
+.video-container {
+    
+    margin-left: 39px
 }
 
 /* .links-container {
