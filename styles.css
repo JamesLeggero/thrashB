@@ -49,11 +49,7 @@ header {
 
 
 
-/* h1 {
-    float: left;
-    color: white;
-    margin-left: 20px;
-} */
+
 
 nav {
     text-align: center;
@@ -127,8 +123,8 @@ h2 {
     padding: 50px 100px;
     /* background-color: rgba(238, 130, 238, 0.5); */
     background-color: #00000061;
-    /* margin: 0 auto; */
-    margin: 70px 200px
+    margin: 70px auto;
+    /* margin: 70px 200px */
 
 }
 
@@ -241,4 +237,72 @@ h3 {
 #center-foot {
     margin-right: 20px;
 }
+
+@media screen and (max-width: 700px) {
+    html {
+        width: 100%;
+        background-color: chartreuse;
+        /* width: 100%; */
+        margin: 0;
+        padding: 0
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0
+    }
+    h2 {
+      color: purple;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        /* display: block; */
+        /* width: 100vw; */
+        /* float: right; */
+        /* margin: 0 auto; */
+        border: 1px solid gold
+    }
+
+    .td-logo {
+       
+        width: 200px;
+        margin: 0 auto
+    }
+
+    .giant-hero-container {
+        /* display: none; */
+        width: 100%;
+        /* padding: 100px */
+        background-color: #8E0000;
+        background-image: 
+        url(img/newTDArt/Redman.jpg),
+        url(img/newTDArt/trash.jpg);
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .section-container {
+        
+        width: 40%;
+        margin: 25px auto
+        
+    }
+    footer {
+        display: none;
+    }
+  }
 
