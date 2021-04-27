@@ -307,24 +307,25 @@ h3 {
         
     }
 
+    .spotify-container {
+        border: 1px solid gold;
+        width: 95%;
+        margin: 0 auto
+
+    }
+
     .spotify-container > iframe {
-        width: 100%
+        width: 100%;
     }
 
     .photos-container {
 
-        /* width: 40%; */
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 100% 100%;
 
         
-        width: 90%;
-        margin: 10px auto;
+        width: 95%;
+        margin: 10px auto 20px auto;
         display: block;
         padding: 10px;
-        gap: 10px;
-        grid-template-columns: 100% 100%; 
     }
 
     .photos-container > img {
@@ -332,16 +333,24 @@ h3 {
     }
 
     .video-container  {
-        margin-left: 0;
-        /* height: 200px; */
-        margin-top: -70px;
-        margin-bottom: -75px
+        /* margin-left: 0;
+        margin-right: 0; */
+        
+        width: 95%;
+        height: auto;
+        /* margin-top: -70px;
+        margin-bottom: -75px; */
         /* margin: 0 auto; */
         /* display: block; */
+        margin: 0 auto;
+        /* border: 1px solid gold */
+        
     }
 
     .video-container > iframe {
         width: 100%;
+        height: auto;
+        /* margin: 0 auto */
         /* border: 1px solid gold; */
     }
 
