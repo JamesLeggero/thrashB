@@ -165,19 +165,33 @@ h2 {
 
 
 .photos-container {
-    padding: 50px;
-    width: 40%;
+    /* padding: 50px; */
+    margin-bottom: 30px;
+    width: 100%;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 100% 100%;
+    
+    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    /* border: 1px solid blue */
 }
 .thrashArt {
     width: 100%
 }
 
+
+
 .video-container {
     
-    margin-left: 39px
+    /* margin-left: 39px */
+    margin: 0 auto 10px auto;
+    /* border: 1px solid gold */
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    /* border: 1px solid purple */
 }
 
 /* .links-container {
@@ -349,6 +363,7 @@ footer > img {
     .video-container > iframe {
         width: 100%;
         height: auto;
+        margin-top: 10px;
         /* margin: 0 auto */
         /* border: 1px solid gold; */
     }
